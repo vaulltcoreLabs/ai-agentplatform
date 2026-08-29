@@ -1,0 +1,6 @@
+{
+  "collectedAt": "2026-08-25T04:16:52.025Z",
+  "window": "enqueue: meta CAS committed, qvisible append not executed",
+  "observed": "message invisible to claim; duplicate enqueue rejected",
+  "classification": "LOST MESSAGE within documented durability model"
+}

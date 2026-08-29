@@ -1,0 +1,10 @@
+{
+  "sha": "65b84cf",
+  "collectedAt": "2026-08-25T04:16:52.651Z",
+  "scenario": "submit-idempotency-recovery",
+  "initialSubmitMs": 3.27,
+  "retrySubmitMs": 0.76,
+  "retryCreatedRun": false,
+  "jobIdMatch": true,
+  "verdict": "PASS"
+}

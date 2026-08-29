@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.576Z",
+  "scenario": "stale Worker A rejected after lease expiry",
+  "leaseAId": "90b337e7-753f-4e70-957b-b1390f9be0e3",
+  "leaseBOwner": "worker_b:worker:37d223d1-808",
+  "renewARejected": true,
+  "verdict": "PASS"
+}

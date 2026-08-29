@@ -1,0 +1,11 @@
+{
+  "sha": "65b84cf",
+  "collectedAt": "2026-08-25T04:16:52.646Z",
+  "scenario": "lost-message-recovery",
+  "detectionTimeMs": 1.01,
+  "claimTimeMs": 0.54,
+  "totalRecoveryMs": 1.56,
+  "requeuedCount": 1,
+  "messageClaimed": true,
+  "verdict": "PASS"
+}

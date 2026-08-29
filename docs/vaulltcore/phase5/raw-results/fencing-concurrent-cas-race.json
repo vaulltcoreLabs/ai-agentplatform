@@ -1,0 +1,8 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.581Z",
+  "scenario": "50 concurrent step CAS races — single winner",
+  "races": 50,
+  "wins": 1,
+  "verdict": "PASS"
+}

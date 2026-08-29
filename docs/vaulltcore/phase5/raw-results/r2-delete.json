@@ -1,0 +1,8 @@
+{
+  "collectedAt": "2026-08-27T13:06:04.504Z",
+  "scenario": "real R2 idempotent delete",
+  "firstDeleteMs": 221,
+  "secondDeleteMs": 210,
+  "absentAfterDelete": true,
+  "verdict": "PASS"
+}

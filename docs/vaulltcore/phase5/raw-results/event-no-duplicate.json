@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.561Z",
+  "scenario": "50 concurrent unique event appends",
+  "appended": 50,
+  "replayedCount": 50,
+  "uniqueSequences": 50,
+  "verdict": "PASS"
+}

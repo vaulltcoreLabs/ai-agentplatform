@@ -1,0 +1,9 @@
+{
+  "collectedAt": "2026-08-27T13:06:04.920Z",
+  "scenario": "presign clamping and binding",
+  "uploadExpiryClampedTo": 900,
+  "downloadExpiryClampedTo": 30,
+  "contentTypeBound": true,
+  "urlShape": "https://vaulltcorer2.2ba1aae7e630e3d15679d7424b3c5a68.r2.cloudflarestorage.com/tenants/r2gate-mtbjdd2t-yv9vwr-tenant-a/runs/run-1/artifacts/artifact-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=REDACTED&X-Amz-Date=REDACTED&X-Amz-Expires=900&X-Amz-Signature=REDACTED&X-Amz-SignedHeaders=host&x-amz-checksum-crc32=AAAAAA%3D%3D&x-amz-sdk-checksum-algorithm=CRC32&x-id=PutObject",
+  "verdict": "PASS"
+}

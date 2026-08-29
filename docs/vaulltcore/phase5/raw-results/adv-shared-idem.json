@@ -1,0 +1,10 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.421Z",
+  "scenario": "identical idempotency keys across 3 tenants on shared backend",
+  "aCreated": true,
+  "bCreated": true,
+  "cCreated": true,
+  "allIndependent": true,
+  "verdict": "PASS"
+}

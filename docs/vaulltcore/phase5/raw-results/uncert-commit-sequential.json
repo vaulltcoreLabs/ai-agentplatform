@@ -1,0 +1,10 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.480Z",
+  "scenario": "sequential uncertain commits from two runtimes",
+  "runtime1Created": true,
+  "runtime2Created": false,
+  "sameJobId": true,
+  "runCount": 1,
+  "verdict": "PASS"
+}

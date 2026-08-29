@@ -1,0 +1,15 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.330Z",
+  "scenario": "provider import scan of core packages",
+  "corePackages": [
+    "packages/workflow",
+    "packages/agent",
+    "packages/intelligence",
+    "packages/shared"
+  ],
+  "forbiddenPatterns": 34,
+  "violationsFound": 0,
+  "violations": [],
+  "verdict": "PASS"
+}

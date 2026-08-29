@@ -1,0 +1,5 @@
+{
+  "collectedAt": "2026-08-25T04:16:52.283Z",
+  "window1": "inflight swapped, cleanup not executed → at-least-once redelivery (documented contract)",
+  "window2": "meta+inflight deleted, qvisible entry remains → orphan leak (claim skips it; list grows)"
+}

@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.543Z",
+  "scenario": "100x uncertain commit storm",
+  "attempts": 100,
+  "creators": 1,
+  "uniqueJobIds": 1,
+  "verdict": "PASS"
+}

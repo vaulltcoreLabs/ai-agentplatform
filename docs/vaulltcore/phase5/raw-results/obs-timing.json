@@ -1,0 +1,20 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:20:28.058Z",
+  "scenario": "10 submit() latencies",
+  "avgMs": 3.71,
+  "maxMs": 8.01,
+  "allLatencies": [
+    3.6,
+    2.76,
+    3.55,
+    2.29,
+    8.01,
+    4.9,
+    2.67,
+    3.2,
+    3.13,
+    2.96
+  ],
+  "verdict": "PASS"
+}

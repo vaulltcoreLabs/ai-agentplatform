@@ -1,0 +1,5 @@
+{
+  "extends": "@vaulltcore/tsconfig/bun.json",
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}

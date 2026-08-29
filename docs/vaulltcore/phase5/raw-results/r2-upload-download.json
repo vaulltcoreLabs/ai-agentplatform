@@ -1,0 +1,21 @@
+{
+  "collectedAt": "2026-08-27T13:06:03.058Z",
+  "scenario": "real R2 put/head/get round-trip",
+  "keyPattern": "tenants/{tenantId}/runs/{runId}/artifacts/{artifactId}",
+  "sha256Verified": true,
+  "latencySamplesMs": [
+    {
+      "op": "PUT",
+      "ms": 501
+    },
+    {
+      "op": "HEAD",
+      "ms": 216
+    },
+    {
+      "op": "GET",
+      "ms": 351
+    }
+  ],
+  "verdict": "PASS"
+}

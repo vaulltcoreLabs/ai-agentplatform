@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.566Z",
+  "scenario": "cursor-based event replay",
+  "totalEvents": 50,
+  "fromSequence25": 26,
+  "fromSequence50": 1,
+  "verdict": "PASS"
+}

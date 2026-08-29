@@ -1,0 +1,40 @@
+{
+  "frozen_git_sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "packages": {
+    "workflow": "provider-neutral contracts + Distributed* stores + DistributedQueue (kv-primitive based) + DurableWorker",
+    "agent": "Agent Engine (provider-neutral)",
+    "intelligence": "Intelligence layer (provider-neutral)",
+    "sandbox": "sandbox abstraction behind adapter/registry",
+    "shared": "shared primitives",
+    "adapters": "Layer-2 infrastructure: Memory/SQLite/Postgres SharedBackend, conformance, retry, phase48 suites"
+  },
+  "contracts_frozen_at_sha": {
+    "SharedBackend": [
+      "get",
+      "set",
+      "delete",
+      "cas",
+      "incr",
+      "append",
+      "list",
+      "keys",
+      "appendUnique(4.8)"
+    ],
+    "WorkflowStore/TaskLeaseStore/EventStore/CheckpointStore/IdempotencyStore": "Phase 4.1 semantics",
+    "Queue@4.8": {
+      "signature": "enqueue(messageId, payload, opts{tenantId?}) / claim(workerId,max,vt) / ack(messageId,workerId) / retry(messageId,delayMs?) / deadLetter(messageId,reason) / stats()",
+      "known_gap": "message identity globally scoped — tenant isolation CONDITIONAL in 4.8 verdict"
+    },
+    "RunnerProtocol": "ExecutionEnvelope / RunnerRegistry / RunnerSession / RunnerControlPlane (Phase 4.5)"
+  },
+  "queue_implementation_baseline": {
+    "claim_complexity": "O(n) full-list read of 'qvisible' + per-message GET + 2x CAS; cost grows with irrelevant visible messages",
+    "ack_complexity": "get + CAS sentinel + delete inflight/meta + O(n) removeVisible whole-list CAS",
+    "crash_windows_closed_by_4.8": [
+      "repair() for meta/visible orphans",
+      "appendUnique for events"
+    ],
+    "phase5_target": "set-based single-statement claim (FOR UPDATE SKIP LOCKED), composite (tenant_id,message_id) identity structurally enforced by contract"
+  },
+  "dependency_policy": "pinned at frozen sha; upgrades follow upgrade→test→benchmark→failure-suite→acceptance (§34). No blanket bumps during Phase 5."
+}

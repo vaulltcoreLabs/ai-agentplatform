@@ -1,0 +1,29 @@
+{
+  "extends": "@vaulltcore/tsconfig/base.json",
+  "include": [
+    "src/**/*",
+    "../web/app/**/*",
+    "../web/lib/**/*",
+    "../web/components/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "../web/**/*.test.ts",
+    "../web/**/*.test.tsx"
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "noEmit": true,
+    "paths": {
+      "@/*": ["../web/*"],
+      "@/web/*": ["../web/*"],
+      "@/app/*": ["../web/app/*"],
+      "@/lib/*": ["../web/lib/*"],
+      "@/components/*": ["../web/components/*"],
+      "@/shared/*": ["../../packages/shared/*"]
+    }
+  }
+}

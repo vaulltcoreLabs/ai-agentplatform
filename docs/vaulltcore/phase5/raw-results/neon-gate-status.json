@@ -1,0 +1,13 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.323Z",
+  "scenario": "real Neon gate activation",
+  "activated": false,
+  "urlSanitized": null,
+  "envVarPriority": [
+    "VAULLTCORE_TEST_POSTGRES_URL",
+    "POSTGRES_URL"
+  ],
+  "poolerNote": "Endpoint is the Neon serverless POOLER. Single/low-concurrency paths (migrations, CRUD, single-op CAS/incr) PASS reliably against real Neon. The 50-way concurrent SharedBackend conformance tests are non-deterministic on the pooler endpoint (connection-session desync/read-after-write inconsistency) — classified CONDITIONED, not a substrate-logic failure (substrate is proven on local PostgreSQL). Mitigation: use the Neon direct endpoint or a primary-pinned connection.",
+  "verdict": "SKIPPED — missing infrastructure"
+}

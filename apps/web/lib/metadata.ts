@@ -1,0 +1,14 @@
+export type Metadata = Record<string, unknown>;
+export type Viewport = Record<string, unknown>;
+export type ColorScheme = "light" | "dark" | "system";
+export type ThemeColor = string;
+export type ViewportConfig = Record<string, unknown>;
+export type ImageMetadata = Record<string, unknown>;
+export type Icons = Record<string, unknown>;
+export type OpenGraph = Record<string, unknown>;
+export type Twitter = Record<string, unknown>;
+export type AppleTouchIcons = Record<string, unknown>;
+export type Manifest = Record<string, unknown>;
+export type MetadataBase = URL;
+export type MetadataBaseConfig = { metadataBase: URL };
+export type MetadataBaseType = URL;

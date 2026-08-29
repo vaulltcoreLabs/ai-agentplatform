@@ -1,0 +1,8 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:21:05.299Z",
+  "scenario": "triple-migration + concurrent writes",
+  "dataSurvived": true,
+  "concurrentWriteOK": true,
+  "verdict": "PASS"
+}

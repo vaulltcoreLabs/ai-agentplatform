@@ -1,0 +1,11 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.538Z",
+  "scenario": "same key + different objective: second rejected (different jobId)",
+  "firstObjective": "objective-A",
+  "secondObjective": "objective-B",
+  "firstJobId": "djob_70e7a9302582202f",
+  "secondRejected": true,
+  "singleJob": true,
+  "verdict": "PASS"
+}

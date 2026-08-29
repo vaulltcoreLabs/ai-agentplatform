@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.553Z",
+  "scenario": "crash matrix production from Phase 5 evidence",
+  "boundaries": 7,
+  "passCount": 7,
+  "failCount": 0,
+  "verdict": "PASS"
+}

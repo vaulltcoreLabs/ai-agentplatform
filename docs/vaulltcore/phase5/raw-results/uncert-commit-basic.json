@@ -1,0 +1,10 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.477Z",
+  "scenario": "uncertain commit — idempotent retry after disconnect",
+  "attempts": 3,
+  "jobsCreated": 1,
+  "runsCreated": 1,
+  "allJobIdsSame": true,
+  "verdict": "PASS"
+}

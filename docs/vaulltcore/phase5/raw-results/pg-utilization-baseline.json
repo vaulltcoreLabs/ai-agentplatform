@@ -1,0 +1,26 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:21:05.271Z",
+  "config": {
+    "server_version": "14.24 (Ubuntu 14.24-0ubuntu0.22.04.1)",
+    "fsync": "on",
+    "synchronous_commit": "on",
+    "wal_level": "replica",
+    "full_page_writes": "on",
+    "max_connections": "100",
+    "shared_buffers": "163848kB",
+    "work_mem": "4096kB",
+    "max_wal_size": "1024MB",
+    "checkpoint_timeout": "300s",
+    "default_transaction_isolation": "read committed",
+    "statement_timeout": "0ms"
+  },
+  "utilization": {
+    "active": 1,
+    "idle": 19,
+    "idleInTx": 0,
+    "total": 20,
+    "walBytesTotal": 251550
+  },
+  "verdict": "RECORDED"
+}

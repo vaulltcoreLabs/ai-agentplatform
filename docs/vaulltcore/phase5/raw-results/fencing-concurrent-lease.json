@@ -1,0 +1,9 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.583Z",
+  "scenario": "20 concurrent lease claims on single step",
+  "workers": 20,
+  "winners": 1,
+  "winnerId": "worker_0:worker:7b6fcb8c-e0b",
+  "verdict": "PASS"
+}

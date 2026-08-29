@@ -1,0 +1,12 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.335Z",
+  "scenario": "provider import scan of adapter packages",
+  "adapterPackages": [
+    "packages/adapters",
+    "packages/storage"
+  ],
+  "providerImportsFound": 0,
+  "uniqueProviders": [],
+  "verdict": "PASS — imports are in adapter boundary only"
+}

@@ -1,0 +1,8 @@
+{
+  "sha": "55b2c21581b609812675bd64403e40abfab19f94",
+  "collectedAt": "2026-08-27T13:05:37.970Z",
+  "scenario": "spot-checks on real managed Postgres",
+  "durationMs": 341,
+  "namespace": "vc_neongate::neongate-mtbjcrww-ykjhgp::",
+  "verdict": "PASS"
+}

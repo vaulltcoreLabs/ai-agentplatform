@@ -1,0 +1,18 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:21:05.173Z",
+  "scenario": "100 CAS races — single winner per round",
+  "races": 100,
+  "totalWins": 100,
+  "totalLosses": 1860,
+  "finalValue": 100,
+  "percentiles": {
+    "n": 100,
+    "mean": 260.805732,
+    "p50": 268.18739300000004,
+    "p95": 471.48543099999995,
+    "p99": 473.77222199999994,
+    "max": 473.77222199999994
+  },
+  "verdict": "PASS"
+}

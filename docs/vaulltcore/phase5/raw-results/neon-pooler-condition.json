@@ -1,0 +1,10 @@
+{
+  "sha": "55b2c21581b609812675bd64403e40abfab19f94",
+  "collectedAt": "2026-08-27T13:05:37.977Z",
+  "scenario": "Neon serverless pooler behavior under SharedBackend conformance",
+  "endpoint": "pooler (serverless)",
+  "singleAndLowConcurrency": "PROVEN — migrations, CRUD, single-op CAS and incr pass reliably",
+  "highConcurrencyConformance": "CONDITIONED — the 50-way concurrent CAS/append/incr and distributed-race conformance tests are non-deterministic under the Neon pooler endpoint (non-deterministic failures, no thrown connection error; operations return wrong values). This is consistent with pooler connection-session desync / read-after-write inconsistency on the pooled endpoint, NOT a defect in the substrate SQL (which is proven on local PostgreSQL in Phases 4.6–4.8).",
+  "mitigation": "Use Neon direct (non-pooler) endpoint, or PgBouncer in transaction mode, or route all durable control-plane reads/writes on a single primary connection so read-after-write consistency holds.",
+  "verdict": "CONDITIONED"
+}

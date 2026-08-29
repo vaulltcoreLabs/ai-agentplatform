@@ -1,0 +1,10 @@
+{
+  "collectedAt": "2026-08-27T13:04:56.655Z",
+  "scenario": "real Neon PostgreSQL metadata lifecycle",
+  "r2Real": true,
+  "tenantScopedKey": true,
+  "lifecycleReached": "DELETED",
+  "crossTenantDenied": true,
+  "verdict": "PASS",
+  "note": "full real Neon+R2"
+}

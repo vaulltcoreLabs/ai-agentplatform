@@ -1,0 +1,10 @@
+{
+  "sha": "55b2c21581b609812675bd64403e40abfab19f94",
+  "collectedAt": "2026-08-27T13:05:47.273Z",
+  "scenario": "identical artifactId/run across two tenants",
+  "distinctKeys": true,
+  "tenantAKey": "tenants/tenant-A/runs/run-1/artifacts/same",
+  "tenantBKey": "tenants/tenant-B/runs/run-1/artifacts/same",
+  "bCannotReadA": true,
+  "verdict": "PASS"
+}

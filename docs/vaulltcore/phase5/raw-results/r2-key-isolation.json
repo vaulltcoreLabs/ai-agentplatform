@@ -1,0 +1,7 @@
+{
+  "collectedAt": "2026-08-27T13:06:06.073Z",
+  "scenario": "tenant-scoped key construction on real bucket",
+  "distinctKeysForSameArtifactIds": true,
+  "authorizationLayer": "postgresql-artifact-metadata",
+  "verdict": "PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:20:18.527Z",
+  "schemaVersion": [
+    "001_shared_backend"
+  ],
+  "tableNames": [
+    "vc_kv",
+    "vc_schema_migrations"
+  ],
+  "verdict": "RECORDED"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "open-agents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "web": "pnpm --dir apps/web dev",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "sandbox:snapshot-base": "node scripts/vercel-refresh-base-snapshot.ts",
+    "typecheck": "turbo typecheck",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "ci": "pnpm check && pnpm typecheck && pnpm test:isolated && pnpm --dir apps/web db:check",
+    "test:isolated": "node scripts/test-isolated.ts",
+    "test:verbose": "bun test --reporter=junit --reporter-outfile /dev/stdout",
+    "api": "pnpm --dir apps/api dev"
+  },
+  "dependencies": {
+    "geist": "^1.7.2",
+    "react-router-dom": "^7.18.2",
+    "tsx": "^4.23.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.0",
+    "oxfmt": "^0.43.0",
+    "oxlint": "1.57.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "turbo": "^2.5.4",
+    "typescript": "^5",
+    "ultracite": "7.4.0",
+    "vite": "^8.2.2"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "ai": "^6.0.165",
+      "@ai-sdk/anthropic": "^3.0.70",
+      "@ai-sdk/openai": "^3.0.53",
+      "@ai-sdk/react": "^3.0.167",
+      "zod": "^4.3.6"
+    }
+  },
+  "overrides": {
+    "kysely": "0.28.17",
+    "zod": "^4.3.6"
+  }
+}

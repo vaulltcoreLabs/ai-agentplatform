@@ -1,0 +1,23 @@
+{
+  "sha": "65b84cf",
+  "collectedAt": "2026-08-25T04:18:00.893Z",
+  "keyCount": 1,
+  "results": {
+    "4": {
+      "successRate": 0.985,
+      "throughput": 220.19,
+      "avgMs": 11.16
+    },
+    "16": {
+      "successRate": 0.9925,
+      "throughput": 98.34,
+      "avgMs": 124.75
+    },
+    "32": {
+      "successRate": 0.99375,
+      "throughput": 35.98,
+      "avgMs": 770.25
+    }
+  },
+  "verdict": "PASS"
+}

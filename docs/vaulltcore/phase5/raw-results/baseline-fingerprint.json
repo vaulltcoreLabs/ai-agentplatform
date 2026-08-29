@@ -1,0 +1,13 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:20:18.489Z",
+  "gitSha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "bunVersion": "1.3.14",
+  "nodeVersion": "v24.3.0",
+  "platform": "linux/x64",
+  "hostCpus": 48,
+  "hostMemTotalMb": 386467,
+  "cpuModel": "AMD EPYC 9254 24-Core Processor",
+  "postgresUrlSanitized": "postgresql://***@127.0.0.1:5432/vaulltcore_test",
+  "verdict": "RECORDED"
+}

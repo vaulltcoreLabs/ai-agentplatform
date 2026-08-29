@@ -1,0 +1,13 @@
+{
+  "sha": "c25c620471ea962481e38d8aedf9cd6b0e112186",
+  "collectedAt": "2026-08-29T13:13:20.463Z",
+  "scenario": "queue message identity is tenant-scoped",
+  "sameMessageId": "collision_1788009200422",
+  "aEnqueued": true,
+  "bEnqueued": true,
+  "aDeduped": true,
+  "claimedCount": 2,
+  "aPayloadTenant": "A",
+  "bPayloadTenant": "B",
+  "verdict": "PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:20:23.133Z",
+  "perTenant": 33,
+  "totalCreated": 99,
+  "contamination": 0,
+  "aJobCount": 34,
+  "bJobCount": 35,
+  "cJobCount": 34,
+  "verdict": "PASS"
+}

@@ -1,0 +1,42 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:28:47.735Z",
+  "durationSeconds": 30,
+  "totalOps": 612,
+  "errors": 0,
+  "avgOpsPerSecond": 20.33,
+  "invariants": {
+    "duplicateCommittedIdempotent": 0,
+    "crossTenantStateAccess": 0,
+    "staleFencedMutation": 0,
+    "orphanedClaimedMessage": 0,
+    "ackedStateDisappeared": 0,
+    "invalidCasTransition": 0,
+    "negativeQueueVisibility": 0,
+    "impossibleLeakOwnership": 0
+  },
+  "timeSeries": [
+    {
+      "ts": 10,
+      "opsSec": 20.81,
+      "totalOps": 210,
+      "errors": 0,
+      "queueDepth": 10040
+    },
+    {
+      "ts": 20,
+      "opsSec": 19.98,
+      "totalOps": 411,
+      "errors": 0,
+      "queueDepth": 10174
+    },
+    {
+      "ts": 30,
+      "opsSec": 20.19,
+      "totalOps": 612,
+      "errors": 0,
+      "queueDepth": 10308
+    }
+  ],
+  "verdict": "PASS"
+}

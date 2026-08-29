@@ -1,0 +1,35 @@
+{
+  "sha": "65b84cf",
+  "collectedAt": "2026-08-25T04:18:26.673Z",
+  "durationSeconds": 10,
+  "totalOps": 327,
+  "errors": 0,
+  "avgOpsPerSecond": 32.49,
+  "invariants": {
+    "duplicateCommittedIdempotent": 0,
+    "crossTenantStateAccess": 0,
+    "staleFencedMutation": 0,
+    "orphanedClaimedMessage": 0,
+    "ackedStateDisappeared": 0,
+    "invalidCasTransition": 0,
+    "negativeQueueVisibility": 0,
+    "impossibleLeakOwnership": 0
+  },
+  "timeSeries": [
+    {
+      "ts": 5,
+      "opsSec": 33.58,
+      "totalOps": 171,
+      "errors": 0,
+      "queueDepth": 133
+    },
+    {
+      "ts": 10,
+      "opsSec": 31.39,
+      "totalOps": 327,
+      "errors": 0,
+      "queueDepth": 237
+    }
+  ],
+  "verdict": "PASS"
+}

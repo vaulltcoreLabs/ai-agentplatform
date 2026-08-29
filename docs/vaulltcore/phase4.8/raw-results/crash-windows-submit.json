@@ -1,0 +1,204 @@
+{
+  "collectedAt": "2026-08-25T04:16:52.024Z",
+  "totalSubmitCalls": 22,
+  "results": [
+    {
+      "crashBeforeCallIndex": 1,
+      "method": null,
+      "retryCreatedRun": true,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 2,
+      "method": "get",
+      "retryCreatedRun": true,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 3,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 4,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 5,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 6,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 7,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 8,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 9,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 10,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 11,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 12,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 13,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 14,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 15,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 16,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 17,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 18,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 19,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 20,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 21,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    },
+    {
+      "crashBeforeCallIndex": 22,
+      "method": "get",
+      "retryCreatedRun": false,
+      "convergedTerminal": true,
+      "finalStatus": "completed",
+      "jobRowsFound": 1,
+      "submittedEvents": 1
+    }
+  ]
+}

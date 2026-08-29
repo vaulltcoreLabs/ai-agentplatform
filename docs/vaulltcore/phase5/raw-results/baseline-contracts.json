@@ -1,0 +1,37 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:20:18.533Z",
+  "contracts": {
+    "sharedBackend": [
+      "cas",
+      "get",
+      "append",
+      "list",
+      "incr",
+      "del",
+      "keys",
+      "appendUnique"
+    ],
+    "queue": [
+      "enqueue",
+      "claim",
+      "ack",
+      "retry",
+      "repair",
+      "removeVisible"
+    ],
+    "runtime": [
+      "submit",
+      "cancel",
+      "getJob",
+      "getRun",
+      "retry",
+      "processOne",
+      "reconcile",
+      "stream",
+      "events",
+      "checkpoints"
+    ]
+  },
+  "verdict": "RECORDED"
+}

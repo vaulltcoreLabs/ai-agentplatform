@@ -1,0 +1,26 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:26:28.268Z",
+  "scenario": "submit() child SIGKILL convergence",
+  "childExitCode": 0,
+  "childSignal": null,
+  "retryCreatedRun": true,
+  "jobExists": true,
+  "trace": [
+    {
+      "pid": 1498,
+      "at": 1787682388201,
+      "boundary": "start"
+    },
+    {
+      "pid": 1498,
+      "at": 1787682388235,
+      "boundary": "submitted",
+      "jobId": "djob_4f511ecb0a94bc2c",
+      "runId": "drun_c3d6c3aa5f5a295a",
+      "status": "running",
+      "createdRun": true
+    }
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "sha": "d65b40206b09c5b99f989658714b3190ec4e836d",
+  "collectedAt": "2026-08-29T08:50:19.166Z",
+  "scenario": "concurrent uncertain commits from two runtimes",
+  "runtime1Created": true,
+  "runtime2Created": false,
+  "totalCreators": 1,
+  "sameJobId": true,
+  "verdict": "PASS"
+}

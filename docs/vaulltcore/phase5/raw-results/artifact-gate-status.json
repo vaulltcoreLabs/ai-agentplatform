@@ -1,0 +1,8 @@
+{
+  "collectedAt": "2026-08-27T13:04:53.871Z",
+  "activated": true,
+  "hasPostgres": true,
+  "hasR2": true,
+  "mode": "FULL (real Neon + real R2)",
+  "verdict": "ACTIVATED"
+}

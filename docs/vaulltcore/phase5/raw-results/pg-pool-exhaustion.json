@@ -1,0 +1,10 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:21:04.692Z",
+  "scenario": "20 concurrent enqueues → drain → submit",
+  "concurrency": 20,
+  "allEnqueued": 20,
+  "allClaimed": 20,
+  "postStress": true,
+  "verdict": "PASS"
+}

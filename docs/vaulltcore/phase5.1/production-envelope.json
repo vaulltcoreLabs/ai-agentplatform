@@ -1,0 +1,50 @@
+{
+  "sha": "d4bbc12721b6c6b6a5a9a794a7adea8bc9069dbc",
+  "producedAt": "2026-08-26T08:06:00.000Z",
+  "postgres_version": "14.24",
+  "topology": "single-node local (sandbox)",
+  "managed_postgres_qualified": false,
+  "maximum_qualified_rtt_ms": null,
+  "note_rtt": "Local PostgreSQL — RTT not measured; requires managed PG for qualification",
+  "recommended_workers": {
+    "value": 8,
+    "basis": "Peak throughput observed at 4-8 workers in ladder test",
+    "degradation_onset": 16
+  },
+  "maximum_tested_workers": 64,
+  "recommended_pool_size": {
+    "value": 10,
+    "basis": "Conservative: 2× recommended workers",
+    "note": "Not tested independently"
+  },
+  "maximum_tested_queue_depth": 10000,
+  "maximum_tested_concurrency": 64,
+  "soak_duration_seconds": 30,
+  "soak_duration_note": "Raw evidence sustained-soak-300s.json contains durationSeconds: 30 (filename misleading). 30s at ~10k depth.",
+  "measured_peak_throughput_ops_per_sec": 20.33,
+  "measured_sustainable_throughput_ops_per_sec": 20.33,
+  "recovery_time_ms": {
+    "p50": "<1",
+    "p95": "<5",
+    "p99": "<10",
+    "note": "Claim latency after repair/recovery"
+  },
+  "rpo": {
+    "value": 0,
+    "basis": "Durable commit — no data loss after successful write"
+  },
+  "rto": {
+    "value": "<1000",
+    "unit": "ms",
+    "basis": "Visibility timeout (30s default) + claim latency"
+  },
+  "conditions": {
+    "managed_pg": "BLOCKED — no managed PostgreSQL available in sandbox",
+    "multi_hour_endurance": "NOT_EXECUTED — sandbox timeout limits",
+    "production_topology": "NOT_QUALIFIED — single-node only",
+    "backup_restore": "NOT_TESTED — no managed PG with backup capability",
+    "point_in_time_recovery": "NOT_AVAILABLE — local PG",
+    "rolling_deployment": "UNTESTED — documented as requiring coordinated transition",
+    "database_level_tenant_isolation": "NOT_IMPLEMENTED — application-level only (see acceptance report §12)"
+  }
+}

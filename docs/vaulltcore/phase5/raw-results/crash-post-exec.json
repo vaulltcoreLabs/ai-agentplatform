@@ -1,0 +1,40 @@
+{
+  "sha": "a06758ea42518fbbb296f041e699aaa236551c2a",
+  "collectedAt": "2026-08-25T18:26:27.755Z",
+  "scenario": "SIGKILL after execution, before checkpoint",
+  "childSignal": "SIGKILL",
+  "sideEffectsWritten": 1,
+  "checkpointsFound": 0,
+  "trace": [
+    {
+      "pid": 1478,
+      "at": 1787682387700,
+      "boundary": "start",
+      "msgId": "crash_post_exec_1787682387491"
+    },
+    {
+      "pid": 1478,
+      "at": 1787682387724,
+      "boundary": "enqueued",
+      "enqueued": true
+    },
+    {
+      "pid": 1478,
+      "at": 1787682387725,
+      "boundary": "claimed",
+      "count": 1
+    },
+    {
+      "pid": 1478,
+      "at": 1787682387726,
+      "boundary": "executed"
+    },
+    {
+      "pid": 1478,
+      "at": 1787682387726,
+      "boundary": "sigkill",
+      "crashedAt": "executed"
+    }
+  ],
+  "verdict": "PASS"
+}
